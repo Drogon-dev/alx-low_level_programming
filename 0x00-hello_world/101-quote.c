@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints to standard error 
- * Return: 0 if executed properly, non-zeron if otherwise
+ * main - print to standard error
+ * Return: 0 for succesful execution
  */
 int main(void)
 {
