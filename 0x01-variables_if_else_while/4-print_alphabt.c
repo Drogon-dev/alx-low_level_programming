@@ -1,23 +1,22 @@
 #include <stdio.h>
-/**
- * main - prints all alphabelts in lowercase
- * except letters e and q followed by a new line
- * Return: 0 if executed, non-zero if otherwise
- */
 
+/**
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
+ */
 int main(void)
 {
 	char ch = 'a';
 
-
 	while (ch <= 'z')
 	{
-		if (ch != 'q' && ch != 'e')
+		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
 		}
 		ch++;
 	}
-	putchar(ch);
+	putchar('\n');
 	return (0);
 }
