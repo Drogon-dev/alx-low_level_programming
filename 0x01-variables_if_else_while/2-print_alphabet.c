@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 /**
  * main - prints all alphabelts in lowercase
  * Return: 0 if executed properly, non-zero if otherwise
