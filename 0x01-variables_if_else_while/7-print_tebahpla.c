@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints all alphabelts in reverse order
+ * main - prints the lowercase alphabet in reverse,
  * followed by a new line
- * Return: 0 if exxecuted, non-zero if otherwise
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char ch;
 
-
-	for (ch = 'z'; ch >= 'a'; ch++)
-		putchar(ch)
-	putchar('\n')
-	return (0)
+	for (ch = 'z'; ch >= 'a'; ch--)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
