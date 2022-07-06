@@ -6,7 +6,7 @@
  * Return: 1 if true, 0 if otherwise
  */
 
-int _iaaplha(int c)
+int _isaplha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
