@@ -2,27 +2,31 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - prints the numbers 1 to 100
+ * main - prints the numbers 1 to 100
  * but display Fizz for multiples of 3,
  * Buzz for multiples of 5, FizzBuzz for
  * multiples of 5 and 3
- * Return: values
+ * Return: Always 0
  */
 
-int fizz_buzz(void)
+int main(void)
 {
 	int i;
 
 	for (i = 1; i < 101; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
+			printf(" FizzBuzz");
 		else if (i % 3 == 0)
-			printf("Fizz");
+			printf(" Fizz");
 		else if (i % 5 == 0)
-			printf("Buzz");
-		else
+			printf(" Buzz");
+		else if (i == 1)
 			printf("%d", i);
-		printf('\n');
+		else
+			printf(" %d", i);
 	}
+	printf("\n");
+	
+	return (0);
 }
