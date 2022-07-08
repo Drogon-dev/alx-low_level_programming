@@ -2,10 +2,10 @@
 
 /**
  * print_triangle - prints a traingle with the # sign
- * @size - lenght of traingle
+ * @size: lenght of traingle
  */
 
-void print_traingle(int size)
+void print_triangle(int size)
 {
 	if (size > 0)
 	{
@@ -19,7 +19,7 @@ void print_traingle(int size)
 				{
 					_putchar(' ');
 				}
-				else if ( j <= i)
+				else if (j <= i)
 				{
 					_putchar('#');
 				}
