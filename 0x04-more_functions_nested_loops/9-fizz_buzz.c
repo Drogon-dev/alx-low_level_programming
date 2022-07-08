@@ -1,13 +1,15 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * fizz_buzz - prints the numbers 1 to 100
  * but display Fizz for multiples of 3,
  * Buzz for multiples of 5, FizzBuzz for
  * multiples of 5 and 3
+ * Return: values
  */
 
-void fizz_buzz(void)
+int fizz_buzz(void)
 {
 	int i;
 
