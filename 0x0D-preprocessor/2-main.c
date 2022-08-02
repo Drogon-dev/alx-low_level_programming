@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - prints the name of the file it was compiled from
@@ -9,8 +9,7 @@
 
 int main(void)
 {
-	_putchar(__LINE__);
-	_putchar('\n');
+	printf("%s\n", __LINE__);
 
 	return (0);
 }
