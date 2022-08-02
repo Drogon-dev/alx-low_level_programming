@@ -3,10 +3,10 @@
 
 /**
  * init_dog - initialize a variable of type struct dog
- * @*d: pointer to the struct name
- * @*name: pointer to the new struct dog name
+ * @d: pointer to the struct name
+ * @name: pointer to the new struct dog name
  * @age: integer variable for new struct dog age
- * @*owner: pointer to the newe struct dog owner
+ * @owner: pointer to the newe struct dog owner
  *
  */
 
