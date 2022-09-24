@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 	while (buf[count] != '\0')
 		count++;
 
-	iwfd = write(fd2, buf, count);
+	wfd = write(fd2, buf, count);
 	if (wfd < 0)
 	{
 		dprintf(2, "Error: Can't write to %s\n", argv[2]);
