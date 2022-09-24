@@ -5,7 +5,7 @@
  * @argc: count of argv
  * @argv: pointer to an array of pointer
  *
- * return: respective error or succes code
+ * Return: respective error or succes code
  */
 int main(int argc, char **argv)
 {
