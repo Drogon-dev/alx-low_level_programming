@@ -4,7 +4,7 @@
  * add_dnodeint_end - adds a new node at the end of a dlistint_t list
  * @head: double pointer to the first node
  * @n: data of the new node
- * 
+ *
  * Return: pointer to the first node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
@@ -17,7 +17,6 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		free(new_node);
 		return (NULL);
 	}
-	
 	new_node->prev = NULL;
 	new_node->n = n;
 	new_node->next = NULL;

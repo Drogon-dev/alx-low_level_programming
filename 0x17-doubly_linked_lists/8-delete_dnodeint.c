@@ -5,14 +5,14 @@
  * dlistint_t linked list.
  * @head: double pointer to the first node
  * @index: index of the node to be deleted. Index starts at 0
- * 
+ *
  * Return: 1 if it succeeded, -1 if it failed
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	unsigned int i;
 	dlistint_t *temp = *head;
-	
+
 	if (*head == NULL)
 		return (-1);
 	else if (!(*head)->next)
@@ -40,6 +40,6 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		temp->prev->next = temp->next;
 		free(temp);
 	}
-	
+
 	return (1);
 }

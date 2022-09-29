@@ -4,7 +4,7 @@
  * sum_dlistint - calculates sum of all the data (n) of a
  * dlistint_t linked list
  * @head: pointer to the first node
- * 
+ *
  * Return: result
  */
 int sum_dlistint(dlistint_t *head)
