@@ -11,19 +11,18 @@
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	unsigned int i;
-	dlistint_t *temp, *new_node;
-
-	if (!*h)
-		return (NULL);
+	dlistint_t *temp = h, *new_node;
 
 	new_node = malloc(sizeof(dlistint_t));
-	if (!new_node)
+	if (!new_node || !h)
 	{
 		free(new_node);
 		return (NULL);
 	}
+	
+	if (idx == 0)
+		return add_dnodeint(h, n);
 
-	temp = *h;
 	for (i = 1; i < idx; i++)
 	{
 		if (temp)
